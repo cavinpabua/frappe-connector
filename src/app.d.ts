@@ -8,6 +8,9 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+	interface Window {
+		csrf_token: string
+	}
 }
 
-export {};
+export { };
